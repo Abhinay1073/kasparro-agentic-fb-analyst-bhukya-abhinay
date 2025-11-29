@@ -12,7 +12,7 @@ library(zoo)
 
 
 analysis_settings <- list(
-  data_source = "C:/Users/Abhinay/Downloads/synthetic_fb_ads_undergarments.csv",
+  data_source = "data/dataset.csv",
   performance_limits = list(
     low_ctr_limit = 0.5,
     roas_drop_threshold = 0.2,
